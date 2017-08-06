@@ -8,9 +8,11 @@ public class ArrayExample {
 		// arrayIterator();
 		System.out.println("Please enter the total no of employees ");
 		int numberOfEmployee;
-		numberOfEmployee = new Scanner(System.in).nextInt();
+		Scanner scanner = new Scanner(System.in);
+		numberOfEmployee = scanner.nextInt();
 		int[] idList = idGenerator(numberOfEmployee);
 		System.out.println(idList.length);
+		scanner.close();
 	}
 
 	public static void arrayIterator() {

@@ -2,7 +2,7 @@ package prabu.prgms.sample;
 
 public class Arrcomp {
 
-	public static void Arrcomp()
+	public static void arrayComp()
 	{
 		int[] a = new int[] {12,15,16,17,10,11};
 		int[] b = new int[] {15,16,14,13,11,10};
@@ -35,7 +35,7 @@ public class Arrcomp {
 	}
 	public static void main(String args[])
 	{
-		Arrcomp();
+		arrayComp();
 		Strcomp();
 	}
 }

@@ -2,7 +2,7 @@ package prabu.prgms.sample;
 
 public class Conditions {
 
-	public static int a = 0;
+	public static int a = 1;
 
 	public static int b = 9;
 

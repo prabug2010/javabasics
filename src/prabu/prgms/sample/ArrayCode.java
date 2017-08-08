@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ArrayCode {
 	private static Scanner str;
 
-	public static void largesmallno() {
+	public static void largeSmallNo() {
 		int[] numbers = new int[] { 10, 15, 20, 25, 7, 9, 22, 27 };
 		int small = numbers[0];
 		int large = numbers[0];
@@ -63,7 +63,7 @@ public class ArrayCode {
 		}
 	}
 
-	public static void arrcomp() {
+	public static void arrComp() {
 		int[] a = new int[] { 4, 5, 7, 8, 2 };
 		int[] b = new int[] { 3, 9, 7, 6, 11, 12, 5, 4 };
 		for (int i = 0; i < a.length; i++) {
@@ -75,10 +75,10 @@ public class ArrayCode {
 	}
 
 	public static void main(String[] args) {
-		// largesmallno();
+		// largeSmallNo();
 		// strrev();
 		// revstr();
-		arrcomp();
+		arrComp();
 
 	}
 
